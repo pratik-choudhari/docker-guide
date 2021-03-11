@@ -6,7 +6,7 @@ In today's date software development rate has sky rocketed but this has introduc
 
 A solution for this problem is to use __Virtual Machines__. A Virtual Machine runs an instance of some Operating System and the host machine hardware is virtualised by a bare metal hypervisor(a software responsible for allocation of resources to virtual machines). Here's how a VM is set up.
 
-<center><img src="../images/virtual_machines_architecture.jpg" width=300></img></center>
+<p align="center"><img src="../images/virtual_machines_architecture.jpg" width=300></img></p>
 
 The reason VMs are not always required to run our applications is that:
 - Creation of a VM takes time
@@ -22,7 +22,7 @@ Soon __containers__ were introduced and they made it much easy to develop and de
 
 Here's how containers are set up.
 
-<center><img src="../images/container_architecture.jpg" width=250></img></center>
+<p align="center"><img src="../images/container_architecture.jpg" width=250></img></p>
 
 Containers do not run a complete OS, they operate on kernels. Kernel is a core program in any OS that has complete control over all processes. Size of these kernels are far less as compared to that of an entire OS. For instance, Ubuntu 18.04 LTS is of 2.00 GB whereas Ubuntu docker image is of 27.25 MB only.
 
