@@ -4,9 +4,21 @@
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 
-![](https://img.shields.io/static/v1?label=Helps+you+with&message=Docker&color=green?style=for-the-badge&logo=docker)
+![](https://img.shields.io/static/v1?label=Active&message=Yes&color=green?style=for-the-badglogo=docker)
 
-__Learn how to use docker via hands-on examples and templates.__
+__Learn docker the easy way__
+
+In this repository, I have documented each and everything that I know about docker. The content is carefully arranged and verified in markdown files. A few examples of dockerfiles and their explanations are available in this [repository](www.pass.com) 
+
+## <b>Table of Contents</b>
+<ul>
+    <li><a href="./markdown_files/what_is_docker.md">What is Docker?</a></li>
+    <li><a href="./markdown_files/why_docker.md">Why Docker?</a></li>
+</ul>
+
+<br>
+<br>
+
 
 Docker is a tool that enables your applications to interact and run in containers(isolated wokspaces) with minimum execution requirements.
 To understand what `minimum execution requirements` means conider the traditional apprpoach of using VMs, might result in wastage of resources such as memory, disk space and bandwidth consumption. 
