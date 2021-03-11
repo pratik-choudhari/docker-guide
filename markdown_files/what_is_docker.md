@@ -4,7 +4,7 @@ Docker is built to manage containers, therefore it is important to understand th
 
 In today's date software development rate has sky rocketed but this has introduced discrepancies in terms of environment configuration, application isolation and avoiding resource access conflicts. 
 
-A solution for this problem is to use __Virtual Machines__. A Virtual Machine runs an instance of some Operating System and the host machine hardware is virtualised by a bare metal hypervisor(a software resposible for allocation of resources to virtual machines). Here's how a VM is set up.
+A solution for this problem is to use __Virtual Machines__. A Virtual Machine runs an instance of some Operating System and the host machine hardware is virtualised by a bare metal hypervisor(a software responsible for allocation of resources to virtual machines). Here's how a VM is set up.
 
 <center><img src="../images/virtual_machines_architecture.jpg" width=300></img></center>
 

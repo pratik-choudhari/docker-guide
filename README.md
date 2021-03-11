@@ -19,9 +19,3 @@ In this repository, I have documented each and everything that I know about dock
 <br>
 <br>
 
-
-Docker is a tool that enables your applications to interact and run in containers(isolated wokspaces) with minimum execution requirements.
-To understand what `minimum execution requirements` means conider the traditional apprpoach of using VMs, might result in wastage of resources such as memory, disk space and bandwidth consumption. 
-Using only sufficient amount of resource which will provide us optimal output is the ultimate goal of containerization. 
-Okay but why docker? Virtual machines were made for this sole purpose?
-
