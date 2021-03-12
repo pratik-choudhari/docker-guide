@@ -39,9 +39,13 @@ Docker started as an open-source project in 2013 and to put it in the simplest t
 
 Docker components:
 
-- Dockerfile: A Dockerfile is a simple human-readable text file that instructs docker how to build a docker image. Each line in this file is a command in the form `[INSTRUCTION] [COMMAND]`.
+- Dockerfile: A Dockerfile is a simple human-readable text file that instructs docker how to build a docker image. Each line in this file is a command in the form `[INSTRUCTION] [ARGUMENT]`.
 
 - Docker image: Docker images are a blueprint of docker containers. It contains information about which software the container will run and how. Docker images are built using Dockerfile.
 
 - Docker container: If docker image is a blueprint then docker container is an instance of these blueprints. Docker container takes the specifications from docker image and executes them to create a environment ready to run you application.
 
+An illustration:
+<p align="center"><img src="../images/docker_components.jpg" width=600></img></p>
+
+Now it's time to install Docker, start the [next lesson](./docker_installation.md)
