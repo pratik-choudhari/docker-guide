@@ -15,5 +15,6 @@ In this repository, I have documented each and everything that I know about dock
 <ul>
     <li><a href="./markdown_files/what_is_docker.md">What is Docker and Why use Docker?</a></li>
     <li><a href="./markdown_files/docker_installation.md">Docker Installation</a></li>
-    <li><a href="./markdown_files/docker_image.md">Docker Images: Layered Architecture, Commands and Image Creation</a></li>
+    <li><a href="./markdown_files/docker_file.md">Dockerfile: Instructions and Examples</a></li>
+    <li><a href="./markdown_files/docker_image.md">Docker Images: Layered Architecture and CLI Commands</a></li>
 </ul>
