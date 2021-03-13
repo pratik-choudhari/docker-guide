@@ -2,9 +2,7 @@
 
 ## The Layered Architecture
 
-In the [first lesson](what_is_docker.md), we learned what is a dockerfile and how is it used, now we will understand how does docker actually builds these images. The following is a gist of a dockerfile.
-
-<!-- <script src="https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13.js"></script> -->
+In the [first lesson](what_is_docker.md), we learned what is a dockerfile and how is it used, now we will understand how does docker actually builds these images. First, take a look at this Dockerfile gist: [CustomFastAPIDockerfile](https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13), open it in a new tab for quick reference.
 
 <br>
 
@@ -92,3 +90,32 @@ Description: Prints all information single or multiple images in a JSON format. 
 
 Examples:
 - `docker image inspect objectdetection:pytorch`
+
+<br>
+
+__Pull image:__
+
+Command:
+<pre>- docker image pull [OPTIONS] NAME[:TAG|@DIGEST]
+- docker pull [OPTIONS] NAME[:TAG|@DIGEST]</pre>
+
+
+Description: Pull images from docker hub. Docker hub is an online repository of docker images that are published by the community members and the official team.
+
+Examples:
+- `docker image pull postgres:latest`
+- `docker pull postgres@sha256:d9b06fa8350e5ec95da29e2ef99be89c7599ef89646257b9a0fe0cee74428415`
+
+<br>
+
+__Push image:__
+
+Command:
+<pre>- docker image push [OPTIONS] NAME[:TAG]
+- docker push [OPTIONS] NAME[:TAG]</pre>
+
+
+Description: Push images to docker hub. Any user can push his own custom image for sharing or for future use. Users can push frequently used images and pull them whenever required to avoid image recreation.
+
+Examples:
+- `docker image push my_custom_go_image:development`
