@@ -2,20 +2,23 @@ Docker is built to manage containers, therefore it is important to understand th
 
 # What is a container?
 
-In today's date software development rate has sky rocketed but this has introduced discrepancies in terms of environment configuration, application isolation and avoiding resource access conflicts. 
+## The Problem:
+In today's date, software development rate has sky rocketed but this has introduced discrepancies in terms of environment configuration, application isolation and avoiding resource access conflicts. 
 
+## Solution #1:
 A solution for this problem is to use __Virtual Machines__. A Virtual Machine runs an instance of some Operating System and the host machine hardware is virtualised by a bare metal hypervisor(a software responsible for allocation of resources to virtual machines). Here's how a VM is set up.
 
 <p align="center"><img src="../images/virtual_machines_architecture.jpg" width=300></img></p>
 
 The reason VMs are not always required to run our applications is that:
-- Creation of a VM takes time
-- Booting a VM takes time too
-- Big OS sizes
-- Install dependencies from scratch
-- Inability to share a VM instance and recreate exact environment
-- Hardware resource wastage
+- Creation of a VM takes time.
+- Boot time of a VM is high.
+- Most OS sizes are in GBs.
+- Dependencies are needed to be installed from scratch.
+- Inability to share a VM instance and recreate exact environment.
+- Hardware resource wastage.
 
+## Solution #2:
 Soon __containers__ were introduced and they made it much easy to develop and deploy software applications. These containers are created via a software which runs on the host machine serving certain OS. 
 
 *__Here, we do not virtualise hardware but we virtualise the Operating System__*
