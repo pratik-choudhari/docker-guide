@@ -9,7 +9,7 @@
 
 __Learn docker the easy way__
 
-In this repository, I have documented each and everything that I know about docker. The content is carefully arranged and verified in markdown files. A few examples of dockerfiles and their explanations are available in this [repository](www.pass.com) 
+In this repository, I have documented each and everything that I know about docker. The content is carefully arranged and verified in markdown files. A few examples of dockerfiles and their explanations are available in this [repository](www.pass.com)
 
 ## <b>Table of Contents</b>
 <ul>
