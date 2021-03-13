@@ -4,7 +4,7 @@
 
 In the [first lesson](what_is_docker.md), we learned what is a dockerfile and how is it used, now we will understand how does docker actually builds these images. The following is a gist of a dockerfile.
 
-<!-- <script src="https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13.js"></script> -->
+<script src="https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13.js"></script>
 
 <br>
 
