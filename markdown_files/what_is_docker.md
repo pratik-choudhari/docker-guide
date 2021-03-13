@@ -43,7 +43,7 @@ Docker components:
 
 - Docker image: Docker images are a blueprint of docker containers. It contains information about which software the container will run and how. Docker images are built using Dockerfile.
 
-- Docker container: If docker image is a blueprint then docker container is an instance of these blueprints. Docker container takes the specifications from docker image and executes them to create a environment ready to run you application.
+- Docker container: If docker image is a blueprint then docker container is an instance of these blueprints. Docker container takes the specifications from docker image and executes them to create a environment ready to run your application.
 
 An illustration:
 <p align="center"><img src="../images/docker_components.jpg" width=600></img></p>
