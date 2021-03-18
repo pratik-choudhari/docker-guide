@@ -14,3 +14,5 @@ For Mac users:
 For Linux users:
 - [Install Docker on Linux](https://docs.docker.com/engine/install/#server)
 - [Docker Installation On Ubuntu? | Linux](https://www.youtube.com/watch?v=M7_mZXh8h8A)
+
+After installing Docker, let's learn about [Dockerfile](./docker_file.md)
