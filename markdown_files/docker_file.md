@@ -69,3 +69,4 @@ _Resources:_
 
 _[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)_
 
+Learn about Docker images, start the [next lesson](docker_image.md)

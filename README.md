@@ -19,5 +19,5 @@ In this repository, I have documented each and everything that I know about dock
     <li><a href="./markdown_files/docker_image.md">Docker Images: Layered Architecture and CLI Commands</a></li>
     <li><a href="./markdown_files/docker_network.md">Introduction to networking in docker</a></li>
     <li><a href="./markdown_files/running_docker_container.md">Running a docker container</a></li>
-    <li><a href="./markdown_files/running_docker_container.md">Persist data from a Docker container</a></li>
+    <li><a href="./markdown_files/docker_data_storage.md">Data storage and persistence</a></li>
 </ul>

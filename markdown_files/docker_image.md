@@ -2,7 +2,7 @@
 
 ## The Layered Architecture
 
-In the [first lesson](what_is_docker.md), we learned what is a dockerfile and how is it used, now we will understand how does docker build these images. First, take a look at this Dockerfile gist: [CustomFastAPIDockerfile](https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13), open it in a new tab for quick reference.
+In the [last lesson](what_is_docker.md), we learned what is a dockerfile and how is it used, now we will understand how does docker build these images. First, take a look at this Dockerfile gist: [CustomFastAPIDockerfile](https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13), open it in a new tab for quick reference.
 
 <br>
 
@@ -118,5 +118,8 @@ Examples:
 
 <br>
 
-Resources:
-- https://docs.docker.com/engine/reference/commandline/image/
+_Resources:_
+- _[Docker image](https://docs.docker.com/engine/reference/commandline/image/)_
+
+
+Learn how docker containers communicate with each other, start the [next chapter](docker_network.md)

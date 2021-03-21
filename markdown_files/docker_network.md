@@ -10,3 +10,7 @@ To facilitate communication between different containers on the host machine, do
 An illustration:
 
 ![Docker networks](../images/docker_networks_illustration.png)
+
+<br>
+
+Next, we learn how to run a docker image and create a container, go to the [next lesson](running_docker_container.md)
