@@ -18,7 +18,7 @@ Example:
 
 <pre>- RUN &lt;COMMAND&gt; (shell form)
 - RUN ["EXECUTABLE", "PARAM1", "PARAM2"] (exec form)</pre>
-The <code>RUN</code> instruction excutes a command in docker container's shell. Default executable for linux is /bin/sh. In shell form, the entire command must be specified after the word <code>RUN</code>, whereas in exec format, the same command is specified as a JSON array. Never mix these two forms together.<br>
+The <code>RUN</code> instruction executes a command in docker container's shell. Default executable for linux is /bin/sh. In shell form, the entire command must be specified after the word <code>RUN</code>, whereas in exec format, the same command is specified as a JSON array. Never mix these two forms together.<br>
 Example: 
 <ul>
 <li><code>RUN apt update</code></li>
