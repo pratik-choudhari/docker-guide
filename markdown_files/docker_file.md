@@ -2,7 +2,7 @@
 
 Dockerfile is a human-readable text file which tells docker how to build a docker image. Dockerfile most of the time is named as `Dockerfile` whereas a user can name it anything.
 
-Following is the list of commands used in a dockerfile:
+Following is the list of most used commands in a dockerfile:
 
 <ol>
 <li>
@@ -35,7 +35,7 @@ Following is the list of commands used in a dockerfile:
 </li> 
 <li>
     <pre>ENV &lt;KEY&gt;=&lt;VALUE&gt; [&lt;KEY&gt;=&lt;VALUE&gt;...]</pre>
-    Use the <code>ENV</code> command to set environment variables. Environment variables are a great alternative to explicit variable assignment which includes configuration data and sensitive information. <code>=</code> sign in the instruction can be omitted and replaced by a space.<br>
+    Use the <code>ENV</code> command to set environment variables. Environment variables are a great alternative to explicit variable assignment which includes configuration data and sensitive information. <code>=</code> sign in the instruction can be omitted and replaced by  space.<br>
     Example: 
     <ul>
     <li><code>ENV DB=Mongodb</code></li>
@@ -46,11 +46,11 @@ Following is the list of commands used in a dockerfile:
     <pre>- CMD &lt;COMMAND&gt; (shell form)
 - CMD ["EXECUTABLE", "PARAM1", "PARAM2"] (exec form)
 - CMD ["PARAM1", "PARAM2"] (entrypoint default args)</pre>
-    <code>CMD</code> command is used to provide default arguments for <code>ENTRYPOINT</code> instruction. It is used by docker only if no additional arguments are provided while running the docker container. The main reason <code>CMD</code> is used is to provide some default arguments in the case where user does not specify any. If a user specifies multiple CMD instructions, only the last instruction will be executed by docker.<br>
+    <code>CMD</code> command is used to provide default arguments for <code>ENTRYPOINT</code> instruction. It is used by docker only if no additional arguments are provided while running the docker container. The main reason <code>CMD</code> is used, is to provide some default arguments in the case where user does not specify any. If a user specifies multiple CMD instructions, only the last instruction will be executed by docker.<br>
     Example: 
     <ul>
     <li><code>CMD ["echo", "linux is the best"]</code> (executes a command)</li>
-    <li><code>CMD ["-c", "100", "--nodes", "5"]</code> (provides default arguments)</li>
+    <li><code>CMD ["-c", "100", "--nodes", "5"]</code> (provides default arguments to ENTRYPOINT command)</li>
     </ul>
 </li> 
 <li>
@@ -60,8 +60,12 @@ Following is the list of commands used in a dockerfile:
     Example:
     <ul>
     <li><code>ENTRYPOINT ["ps", "aux"]</code> (executes a command)</li>
-    <li><code>ENTRYPOINT ["gunicorn", "--workers", "2", "test:app"]</code> (provides default arguments)</li>
+    <li><code>ENTRYPOINT ["gunicorn", "--workers", "2", "test:app"]</code> (start the app and use the container as an executable)</li>
     </ul>
 </li>
 </ol>
+
+_Resources:_
+
+_[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)_
 
