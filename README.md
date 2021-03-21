@@ -24,15 +24,11 @@ In this repository, I have documented each and everything that I know about dock
     <li><a href="./markdown_files/docker_data_storage.md">Data storage and persistence</a></li>
 </ul>
 
-<br>
-
 ## Contributors:
 
 Made a project which is dockerized? Include it in [this list](./markdown_files/dockerized_projects.md)!
 
 See [Contributing.md](CONTRIBUTING.md)
-
-<br>
 
 ## Connect with me 
 
