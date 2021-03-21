@@ -2,8 +2,9 @@
 
 Dockerfile is a human-readable text file which tells docker how to build a docker image. Dockerfile most of the time is named as `Dockerfile` whereas a user can name it anything.
 
-Following is the list of most used commands in a dockerfile:
+<br>
 
+Following is the list of most used commands in a dockerfile:
 
 <pre>FROM NAME[:TAG|@DIGEST]</pre>
 The <code>FROM</code> instruction tells docker-engine which base image is to be used.<br>

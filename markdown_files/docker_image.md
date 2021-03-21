@@ -26,7 +26,7 @@ __List all images:__
 <pre>- docker image ls [OPTIONS]
 - docker images [OPTIONS]</pre>
 
-Description: List all images on your computer. Use the `-a` flag to include intermediate images.
+List all images on your computer. Use the `-a` flag to include intermediate images.
 
 <br>
 
@@ -35,7 +35,7 @@ __Building a docker image:__
 <pre>- docker image build [OPTIONS] PATH
 - docker build [OPTIONS] PATH</pre>
 
-Description: Generates a docker image from the dockerfile. By convention the docker file is named as `Dockerfile` however, this is not mandatory and it can be named anything. `-t` flag can be used to name and tag the image
+Generates a docker image from the dockerfile. By convention the docker file is named as `Dockerfile` however, this is not mandatory and it can be named anything. `-t` flag can be used to name and tag the image
 
 Examples:   
 - `docker image build .` - Dockerfile in the same directory with name `Dockerfile`
@@ -49,7 +49,7 @@ __Deleting a docker image:__
 <pre>- docker image rm [OPTIONS] IMAGE [IMAGES..]
 - docker rmi [OPTIONS] IMAGE [IMAGES..]</pre>
 
-Description: Delete single or multiple images. Use the `-f` flag to force delete an image.
+Delete single or multiple images. Use the `-f` flag to force delete an image.
 
 Examples:
 - `docker image rm -f nginx:1.1`
@@ -61,7 +61,7 @@ __Remove unused images:__
 
 <pre>docker image prune</pre>
 
-Description: Deletes all unused images, after confirmation. Unused images are the ones that are not tagged. As these images are not used in any container it is the same to delete them and reclaim the disk space.
+Deletes all unused images, after confirmation. Unused images are the ones that are not tagged. As these images are not used in any container it is the same to delete them and reclaim the disk space.
 
 <br>
 
@@ -70,7 +70,7 @@ __Show history of an image:__
 <pre>- docker image history [OPTIONS] IMAGE
 - docker history [OPTIONS] IMAGE</pre>
 
-Description: Prints history of the image including layer creation history with time.
+Prints history of the image including layer creation history with time.
 
 Examples:
 - `docker image history object-detection:pytorch`
@@ -83,8 +83,7 @@ __Inspect image:__
 <pre>- docker image inspect [OPTIONS] IMAGE [IMAGES..]
 - docker inspect [OPTIONS] IMAGE [IMAGES..]</pre>
 
-
-Description: Prints all information single or multiple images in a JSON format. Information includes network info, image metadata, environment variables, layers, architecture type, size, etc.
+Prints all information single or multiple images in a JSON format. Information includes network info, image metadata, environment variables, layers, architecture type, size, etc.
 
 Examples:
 - `docker image inspect object-detection:pytorch`
@@ -96,8 +95,7 @@ __Pull image:__
 <pre>- docker image pull [OPTIONS] NAME[:TAG|@DIGEST]
 - docker pull [OPTIONS] NAME[:TAG|@DIGEST]</pre>
 
-
-Description: Pull images from docker hub. Docker hub is an online repository of docker images that are published by the community members and the official team.
+Pull images from docker hub. Docker hub is an online repository of docker images that are published by the community members and the official team.
 
 Examples:
 - `docker image pull postgres:latest`
@@ -110,8 +108,7 @@ __Push image:__
 <pre>- docker image push [OPTIONS] NAME[:TAG]
 - docker push [OPTIONS] NAME[:TAG]</pre>
 
-
-Description: Push images to docker hub. Any user can push his custom image for sharing or for future use. Users can push frequently used images and pull them whenever required to avoid image recreation.
+Push images to docker hub. Any user can push his custom image for sharing or for future use. Users can push frequently used images and pull them whenever required to avoid image recreation.
 
 Examples:
 - `docker image push my_custom_go_image:development`
