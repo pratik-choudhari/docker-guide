@@ -15,7 +15,8 @@ Following is the list of commands used in a dockerfile:
     </ul>
 </li> 
 <li>
-    <pre>FROM NAME[:TAG|@DIGEST]</pre>
+    <pre>- RUN command[:TAG|@DIGEST]
+    </pre>
     The <code>FROM</code> instruction tells docker-engine which base image is to be used.<br>
     Example: 
     <ul>
