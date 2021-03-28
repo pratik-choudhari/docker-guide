@@ -68,6 +68,9 @@ Example:
 
 <br>
 
+Examples:
+- [FastAPI Dockerfile](https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13)
+
 _Resources:_
 
 _[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)_
