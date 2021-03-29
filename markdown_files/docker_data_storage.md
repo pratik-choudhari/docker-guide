@@ -53,6 +53,6 @@ Example:
 - `docker run --name devtest -v myvol2:/app nginx:latest`
 - `docker run --name devtest --mount source=myvol2,target=/app nginx:latest`
 
-_Resources:_
+Resources:
 
-_[docker volumes](https://docs.docker.com/storage/volumes/)_
+- (docs)[docker volumes](https://docs.docker.com/storage/volumes/)
