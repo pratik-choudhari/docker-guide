@@ -1,0 +1,14 @@
+{
+    "name": "node-express",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "version": "1.0.0",
+    "description": "node express application.",
+    "main": "main.js",
+    "author": "pratik",
+    "dependencies": {
+        "express": "^4.17.1",
+        "ejs": "^1.0.0"
+    }
+}
