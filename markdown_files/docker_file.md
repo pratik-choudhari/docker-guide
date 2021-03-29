@@ -71,8 +71,10 @@ Example:
 Examples:
 - [FastAPI Dockerfile](https://gist.github.com/pratik-choudhari/fb3e45e3e0a116d6db77c696613c4f13)
 
-_Resources:_
-
-_[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)_
-
 Learn about Docker images, start the [next lesson](docker_image.md)
+
+Resources:
+
+- (docs)[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- (video)[Dockerfile Tutorial - Docker in Practice || Docker Tutorial 10 by TechWorld with Nana](https://www.youtube.com/watch?v=WmcdMiyqfZs)
+- (article)[Intro Guide to Dockerfile Best Practices](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
