@@ -78,10 +78,9 @@ Example:
 
 <br>
 
-_Resources:_
-
-_[docker run reference](https://docs.docker.com/engine/reference/run/)_
-
-<br>
-
 Next, see how data is managed in docker, [click here](docker_data_storage.md)
+
+Resources:
+
+- (docs)[docker run reference](https://docs.docker.com/engine/reference/run/)
+- (video)[What is a container in Docker](https://www.youtube.com/watch?v=HMAoJoSJCyk)
