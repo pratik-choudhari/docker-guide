@@ -50,7 +50,7 @@ Example:
 <br>
 
 <pre>--name CONTAINER_NAME</pre>
-Every container is assigned an internal IP address which does not coincide with the host IP space. So, if multiple containers want to communicate then they must contact via the assigned IP address but here we can not guarantee that a container will be assigned the same IP every time, there is an easy workaround this process and it is contact a container via it's name. Docker assigns a random name to container, unless specified. Providing a name explicitly, creates an entry for the conatiner IP and the name inside docker's embedded DNS. <br>
+Every container is assigned an internal IP address which does not coincide with the host IP space. So, if multiple containers want to communicate then they must contact via the assigned IP address but here we can not guarantee that a container will be assigned the same IP every time, there is an easy workaround this process and it is to contact a container via it's name. Docker assigns a random name to container, unless specified. Providing a name explicitly, creates an entry for the conatiner IP and the name inside docker's embedded DNS. <br>
 Example: 
 <ul>
 <li><code>docker run --name logger_container alpine_image:jimjam</code></li>
