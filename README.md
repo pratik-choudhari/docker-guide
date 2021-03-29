@@ -22,11 +22,12 @@ In this repository, I have documented each and everything that I know about dock
     <li><a href="./markdown_files/docker_network.md">Introduction to networking in docker</a></li>
     <li><a href="./markdown_files/running_docker_container.md">Running a docker container</a></li>
     <li><a href="./markdown_files/docker_data_storage.md">Data storage and persistence</a></li>
+    <li><a href="https://github.com/pratik-choudhari/docker-guide/tree/main/dockerised-applications">Follow along tutorials for container creation</a></li>
 </ul>
 
 ## Contributors:
 
-Made a project which is dockerized? Include it in [this list](./markdown_files/dockerized_projects.md)!
+Made a project which is dockerised? Include it in the `dockerised-application` folder
 
 See [Contributing.md](CONTRIBUTING.md)
 
