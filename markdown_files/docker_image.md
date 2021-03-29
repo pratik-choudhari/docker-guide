@@ -115,8 +115,11 @@ Examples:
 
 <br>
 
-_Resources:_
-- _[Docker image](https://docs.docker.com/engine/reference/commandline/image/)_
-
-
 Learn how docker containers communicate with each other, start the [next chapter](docker_network.md)
+
+Resources:
+- (docs)[Docker image](https://docs.docker.com/engine/reference/commandline/image/)
+- (article)[What is a Docker image?](https://searchitoperations.techtarget.com/definition/Docker-image)
+- (article)[A Beginner’s Guide to Understanding and Building Docker Images](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
+
+
