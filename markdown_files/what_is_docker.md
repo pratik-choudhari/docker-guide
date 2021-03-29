@@ -52,3 +52,9 @@ An illustration:
 <p align="center"><img src="../images/docker_components.jpg" width=600></img></p>
 
 Now it's time to install Docker, start the [next lesson](./docker_installation.md)
+
+Resources:
+- (video)[What is Docker? Easy way by hitesh choudhary](https://www.youtube.com/watch?v=-LeV_c1zG-s)
+- (video)[What is Docker? by telusko](https://www.youtube.com/watch?v=u-YWtdbpEhQ)
+- (article)[Containers vs. VMs: What’s the Difference?by IBM](https://www.ibm.com/cloud/blog/containers-vs-vms)
+- (article)[Containers vs. virtual machines by Microsoft](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
