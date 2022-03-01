@@ -26,7 +26,7 @@ Example:
 <br>
 
 <pre>EXPOSE &lt;PORT&gt; [&lt;PORT&gt;/PROTOCOL]</pre>
-<code>EXPOSE</code> informs docker that the container will be listening on the specified port. Note that this does not mean user can access the app through this port, <code>EXPOSE</code> does not open the port to the host machine, it just serves as a means of documentation to the developer(s). Click here to know, how to publish a port in docker.<br>
+<code>EXPOSE</code> informs docker that the container will be listening on the specified port. Note that this does not mean user can access the app through this port, <code>EXPOSE</code> does not open the port to the host machine, it just serves as a means of documentation to the developer(s).<br>
 Example: 
 <ul>
 <li><code>EXPOSE 5000</code></li>
